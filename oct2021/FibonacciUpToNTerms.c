@@ -2,7 +2,8 @@
 void main() 
 {
     int i, n, a= 0, b= 1, sumab;
-    printf(" Enter the number to find its Fibonacci Series up to n terms: ");
+    printf("Fibonacci Series up to n terms: ");
+    printf(" Enter the number");
     scanf("%d", &n);
     printf("Fibonacci Series up to n terms:");
 
