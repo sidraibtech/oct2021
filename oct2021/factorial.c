@@ -1,15 +1,15 @@
 #include<stdio.h>  
 void main()    
 {    
- int i,n,fact=1;    
- printf(" Please enter a number to find factorial : ");    
+ int i,n,factorial=1;    
+ printf("Enter a number to find its factorial: ");    
  scanf("%d",&n);
  i=1;
  while(i<=n)
  {    
-    fact*=i;
+    factorial=factorial*i;
     i++;
   
  }    
-  printf("The factorial of number %d is = %d",n,fact);    
+  printf("The factorial of number %d is = %d",n,factorial);    
 }   
