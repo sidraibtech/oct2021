@@ -2,20 +2,20 @@
 //Programme for greater number
 void main()
 {
-    int x,y,z,ans;
-    printf("Enter only three numbers ");
-    scanf("%d%d%d",&x,&y,&z);
-    if(x>y&&x>z)
+    int a,b,c,answer;
+    printf("Enter three different numbers: ");
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b&&a>c)
     {
-        ans=x;
+        answer=a;
     }
-    else if (y>x&&y>z)
+    else if (b>a&&b>c)
     {
-         ans=y;
+         answer=b;
     }
     else
     {
-        ans=z;
+        answer=c;
     }
-    printf("Greatest Number is %d",ans);
+    printf("Greatest Number is %d",answer);
 }
